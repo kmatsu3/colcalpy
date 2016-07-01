@@ -1,0 +1,1 @@
+grep "set arrow from" $1  | sed 's/0.0 to//g' | sed 's/set arrow from//g' | sed 's/, 0.0 arrowstyle 2//g' > tmp.csv
